@@ -1,5 +1,6 @@
 # blockchain-developer-bootcamp-final-project
 
+CrowdFunding App - keeping the idea small and classic
 
 - The Manager will start a campaign for CrowdFunding with a specific monetary goal and
 deadline.
