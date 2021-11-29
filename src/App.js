@@ -54,7 +54,7 @@ function App() {
   
   return (
     <div className="App">
-      <h4>LuckyWinner Lottery Manager : {managerAddress}</h4>
+      <h4>Lottery Manager : {managerAddress}</h4>
       <h4>No of players in the lottery : {players.length}</h4>
       <form onSubmit={enterTheLottery}>
         <input value={entryValue} onChange={(e)=>setEntryValue(e.target.value)} />
