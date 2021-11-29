@@ -21,13 +21,13 @@ https://stupefied-golick-3b969c.netlify.app/
 6. Open `http://localhost:3000`
 
 
-###Screencast
+### Screencast
 
 
-###Deployed Contract Address (deployed to Ropsten Network)
+### Deployed Contract Address (deployed to Ropsten Network)
 
 
-###Project Workflow 
+### Project Workflow 
 
 1. Go to a deployed website
 2. Metamask should connect automatically
