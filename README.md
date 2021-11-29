@@ -18,7 +18,7 @@ https://stupefied-golick-3b969c.netlify.app/
 3. Run truffle migrate --network development
 4. Run truffle test
 5. To run frontend - you can use yarn start or npm run start 
-6. Open `hhtp://localhost:3000
+6. Open `http://localhost:3000`
 
 
 ###Screencast
