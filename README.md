@@ -1,12 +1,8 @@
-# blockchain-developer-bootcamp-final-project
+# blockchain-developer-bootcamp-final-project Lottery
 
 A Lottery web app created with React, web3, smart contracts, deployed on Ropsten Test Network with truffle, and tested with mocha.
 
 ![lottery gif](https://media.giphy.com/media/UOvh7Fw9fo7KM/giphy.gif)
-
-## Blockchain-developer-bootcamp-final-project Lottery
-
-A Lottery web app created with React, web3, smart contracts, deployed on Ropsten Test Network with truffle, and tested with mocha.
 
 <hr />
 
