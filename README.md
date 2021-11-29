@@ -7,7 +7,7 @@ A Lottery web app created with React, web3, smart contracts, deployed on Ropsten
 <hr />
 
 ### Deployed version URL:
-https://stupefied-golick-3b969c.netlify.app/
+https://final-project-lottery.netlify.app/
 
 
 <hr />
@@ -30,12 +30,13 @@ https://stupefied-golick-3b969c.netlify.app/
 
 ### Project Workflow 
 
-1. Go to a deployed website
+1. Go to a deployed website https://final-project-lottery.netlify.app/
 2. Metamask should connect automatically
 3. You should see that that the lottery is on
-4. Enter amount to play (it should be more than 0.01)
-5. Confirm with metamask (you should be in ropsten network)
-6. When transaction is approved, you should see a message "You have entered.."
+4. Enter amount to play (it should be more than 0.01 eth)
+5. Confirm with metamask (* you should be in ropsten network)
+6. When transaction is approved, you should see a message "You have entered the lottery".
 7. After you refresh the page, you will see that number of people entered in lottery incremented.
-8. !!!!Only manager of a lottery can call pick a winner (I will need to work on this later, it looks a bit confusing at the moment)
+8. Only manager of a lottery can call pick a winner (I will need to work on this later, right now all users can see the button)
+
 

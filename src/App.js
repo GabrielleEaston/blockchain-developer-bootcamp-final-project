@@ -54,11 +54,12 @@ function App() {
   
   return (
     <div className="App">
-      <h4>Lottery Manager : {managerAddress}</h4>
-      <h4>No of players in the lottery : {players.length}</h4>
+      <h4>Lottery Manager: {managerAddress}</h4>
+      <h4>Number of players in the lottery: {players.length}</h4>
       <form onSubmit={enterTheLottery}>
         <input value={entryValue} onChange={(e)=>setEntryValue(e.target.value)} />
-        <button type="submit">Enter the lottery</button>    
+        <button type="submit">Enter the lottery</button> 
+        <span>0.011 eth is minimum amount to enter a lottery</span>   
       </form>
       <button onClick={pickWinner}>Pick a winner</button>
       <h5>{message}</h5>
