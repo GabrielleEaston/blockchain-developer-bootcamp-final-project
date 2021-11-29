@@ -25,7 +25,7 @@ https://stupefied-golick-3b969c.netlify.app/
 
 
 ###Deployed Contract Address (deployed to Ropsten Network)
-
+`0xbc2639770A69fa55f7C6EB528E4c24f8dE83def7`
 
 ###Project Workflow 
 
