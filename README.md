@@ -18,16 +18,17 @@ https://stupefied-golick-3b969c.netlify.app/
 3. Run truffle migrate --network development
 4. Run truffle test
 5. To run frontend - you can use yarn start or npm run start 
-6. Open `hhtp://localhost:3000
+6. Open `http://localhost:3000`
 
 
-###Screencast
+### Screencast
 
 
-###Deployed Contract Address (deployed to Ropsten Network)
+### Deployed Contract Address (deployed to Ropsten Network)
 `0xbc2639770A69fa55f7C6EB528E4c24f8dE83def7`
 
-###Project Workflow 
+
+### Project Workflow 
 
 1. Go to a deployed website
 2. Metamask should connect automatically
