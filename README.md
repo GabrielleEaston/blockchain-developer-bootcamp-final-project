@@ -23,6 +23,8 @@ https://final-project-lottery.netlify.app/
 
 ### Screencast
 
+https://www.loom.com/share/a44c849add744f6ab5f6c90a503348b0
+
 
 ### Deployed Contract Address (deployed to Ropsten Network)
 `0xbc2639770A69fa55f7C6EB528E4c24f8dE83def7`
