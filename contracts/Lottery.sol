@@ -1,17 +1,14 @@
 // SPDX-License-Identifier: GPL-3.0
-
 pragma solidity ^0.8.0;
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 /// @title Lottery 
 /// @author Gabrielle 
-/// @notice Allows users to enter a lottery, manager calls a winner
-contract Lottery {
-    address public manager;
+/// @notice Allows users to enter a lottery, owner of the contract calls a winner
+contract Lottery is Ownable{
     address[] public players;
     
-    constructor() {
-        manager = msg.sender;
-    }
+    constructor() {}
     
     function enter() public payable{
         require(msg.value > .01 ether == true,"Minimum transaction value is 0.01 Ether");
@@ -22,19 +19,13 @@ contract Lottery {
         return uint(keccak256(abi.encodePacked(block.difficulty,block.timestamp,players)));
     }
     
-    function pickWinner() public restricted{
+    function pickWinner() public onlyOwner{
         uint index = random() % players.length;
         payable(players[index]).transfer(address(this).balance);
         players = new address[](0);
     }
     
-    modifier restricted(){
-        require(msg.sender == manager == true,"You need to be a manager to pick a winner");
-        _;
-    }
-    
     function getPlayers() public view returns(address[] memory){
         return players;
     }
-    
 }
