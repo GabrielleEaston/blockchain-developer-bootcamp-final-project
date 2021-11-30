@@ -1,7 +1,9 @@
 import { useState,useEffect } from 'react';
 import lottery  from './artifacts/lottery';
+import Button from 'react-bootstrap/Button';
 import './App.css';
 import web3 from './artifacts/web3';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [managerAddress,setManagerAddress] = useState('Fetching address .....');
@@ -53,16 +55,25 @@ function App() {
   },[]);
   
   return (
-    <div className="App">
-      <h4>Lottery Manager: {managerAddress}</h4>
-      <h4>Number of players in the lottery: {players.length}</h4>
+    <div className="main-container">
+      <div className="text-center">
+        <h1>Lottery App</h1>
+        <hr/>
+      <h4 calssName="card-title">Lottery Manager: {managerAddress}</h4>
+      <h4 className="card-text">Number of players in the lottery: {players.length}</h4>
+      <hr/>
       <form onSubmit={enterTheLottery}>
-        <input value={entryValue} onChange={(e)=>setEntryValue(e.target.value)} />
-        <button type="submit">Enter the lottery</button> 
-        <span>0.011 eth is minimum amount to enter a lottery</span>   
+        <input value={entryValue} placeholder="Enter more than 0.01 eth" onChange={(e)=>setEntryValue(e.target.value)} />
+        <br />
+        <Button className="btn-dark" type="submit">Enter the lottery</Button> 
+        <div class="alert alert-light" role="alert">
+        0.011 eth is a minimum amount to enter a lottery.</div>
       </form>
-      <button onClick={pickWinner}>Pick a winner</button>
+      <div class="alert alert-info" role="alert">
+        Only a manager of the lottery can pick a Winner!</div>
+      <Button className="btn-dark" onClick={pickWinner}>Pick a winner</Button>
       <h5>{message}</h5>
+      </div>
     </div>
   );
 }

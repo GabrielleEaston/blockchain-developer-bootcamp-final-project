@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Noto+Sans&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+background-image: url("https://images.unsplash.com/photo-1469733881637-10c8de93222c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; 
+height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-container{
+  margin-top: 10%;
+  padding: 30px;
   color: white;
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));  
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 150%;
+  font-family: 'Noto Sans', sans-serif;
+}
+h1{
+  font-family: 'Comforter', cursive;
+}
+input{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.btn-dark{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
