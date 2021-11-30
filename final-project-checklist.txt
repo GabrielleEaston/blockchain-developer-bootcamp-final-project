@@ -10,7 +10,7 @@ Please answer the following questions. Does your project:
 --Are commented to the specs described by NatSpec Solidity documentation 
 --Use at least two design patterns from the "Smart Contracts" section 
 --Protect against two attack vectors from the "Smart Contracts" section with its the SWC number 
---Inherits from at least one library or interface (no) I missed this requirement
+--Inherits from at least one library or interface 
 --Can be easily compiled, migrated and tested? YES
 
 4. Contain a Markdown file named design_pattern_decisions.md and avoiding_common_attacks.md? YES
@@ -30,7 +30,7 @@ Please answer the following questions. Does your project:
 
 9. Have clear instructions for: 
 1) Installing dependencies for your project 
-2) Accessing orâ€”if your project needs a server (not required)â€”running your project
+2) Accessing oracle if your project needs a server (not required) for running your project
 3) Running your smart contract unit tests and which port a local testnet should be running on. YES
 
 10. A screencast of you walking through your project? YES
