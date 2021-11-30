@@ -2,6 +2,9 @@
 
 pragma solidity ^0.8.0;
 
+/// @title Lottery 
+/// @author Gabrielle 
+/// @notice Allows users to enter a lottery, manager calls a winner
 contract Lottery {
     address public manager;
     address[] public players;
