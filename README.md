@@ -39,6 +39,6 @@ https://www.loom.com/share/a44c849add744f6ab5f6c90a503348b0
 5. Confirm with metamask (* you should be in ropsten network)
 6. When transaction is approved, you should see a message "You have entered the lottery".
 7. After you refresh the page, you will see that number of people entered in lottery incremented.
-8. Only manager of a lottery can call pick a winner (I will need to work on this later, right now all users can see the button)
+8. Only manager of a lottery can call pick a winner (Will work on a front end as Post MVP)
 
 
