@@ -1,4 +1,4 @@
- ### Design patterns used in smart contract:
+ ### Design patterns used in smart contract: 
 
 **<h3>Access Control</h3>** 
 Using the Ownable design pattern.
