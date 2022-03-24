@@ -29,6 +29,8 @@ https://www.loom.com/share/a44c849add744f6ab5f6c90a503348b0
 ### Deployed Contract Address (deployed to Ropsten Network)
 `0xbc2639770A69fa55f7C6EB528E4c24f8dE83def7`
 
+### Public Ethereum account for certification
+0xe262E2a6C160C354c747e6F9A71AC5c76843Ff0C
 
 ### Project Workflow 
 
